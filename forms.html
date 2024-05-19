@@ -1,68 +1,92 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link rel="stylesheet" href="forms.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clase_03</title>
 </head>
 <body>
-    <h1>Formulario</h1>
-    <h2>Registrate en OLÉ</h2>
+
+    <div class="logo-ole-form">
+    <a href="https://www.ole.com.ar/">
+        <img class="logo-ole-form" src="images/logo-ole.png" alt="logo-ole">
+    </a>
+</div>
     <form>
-        <label for="nombre-usuario">Nombre de Usuario:</label>
-        <input type="text" name="nombre-usuario" id="nombre-usuario">
-        <div></div>
-        <label for="user-pwd">Contraseña:</label>
-        <input type="password" name="user-password" id="user-pwd">
+        <div class="Formulario">
+    
+        <h1>Crear cuenta</h1>
+            <div class="Usuario">
+        <label for="nombre-usuario">Usuario</label>
+        <input type="text" name="nombre-usuario" id="nombre-usuario"required>
+    </div>
 
-        <div></div>
-        
-        <label for="address">Domicilio:
-            
-        </label>
-        <input type="text" name ="address" id = "address"
+        <div class="Contraseña">
 
-        <div></div>
+        <label for="user-pwd">Contraseña</label>
+        <input type="password" name="user-password" id="user-pwd"required>
+
+    </div>
+
+    <div class="Repetir-contraseña">
+        <label for="user-pwd">Confirmar contraseña</label>
+        <input type="password" name="user-password" id="user-pwd"required>
+    </div>
+
+        <div class="Domicilio">
+        <label for="address">Domicilio</label>
+        <input type="text" name ="address" id = "address"required>
+    </div>
         
+        <div class="País">
         </select>
-        <label for="city">Ciudad:</label>
-        <select name="city" id="city">
-            <option value="Rosario">Rosario</option>
-            <option value="Caba">Caba</option>
-            <option value="Córdoba">Córdoba</option>
-            <option value="Santa Fe">Santa Fe</option>
-            <option value="Otra">Córdoba</option>
+        <label for="País"> País </label>
+        <select  class ="País-select" name ="País-select" id="País-select">
+            <option value="Argentina">Argentina</option>
+            <option value="Uruguay">Uruguay</option>
+            <option value="Chile">Chile</option>
+            <option value="Brasil">Brasil </option>
+            <option value="Otro">Otro</option>
+            
        </select>
+    </div>
+     
+<div class="Nombre">
+       <label for="first-name">Nombre</label> 
+        <input type="text" name="first-name" id="first-name" placeholder="Ingrese nombre y apellido" required>
+    </div>
 
-       <div></div>
+    <div class="Genero">
+    <label for ="Genero">Género</label>
 
-       <label for="first-name">Nombre:</label>
-        <input type="text" name="first-name" id="first-name"> 
+    <input type="radio" name="genero" id="masculino" class="GeneroInput"required>
+    <label for="masculino" class="GeneroLabel">Masculino</label>
+
+    <input type="radio" name="genero" id="femenino" class="GeneroInput"required>
+    <label for="femenino" class="GeneroLabel">Femenino</label>
+
+</div>
+    
+<div class="Fecha-de-nacimiento">
+    <label for="fecha">Fecha de nacimiento</label>
+        <input type="date" id="fecha" name="fecha"required>
+    </div>
         
-        <div></div>
-        <div></div>
-        <input type="radio" name="gender" id="male">
-    <label for="male">Masculino</label>
-    <input type="radio" name="gender" id="female">
-    <label for="female">Femenino</label>
-
-    <div></div>
-
-    <label for="fecha">Fecha de nacimiento:</label><br>
-        <input type="date" id="fecha" name="fecha"><br><br>
-        
-        <fieldset>
-            <legend>Detalles de contacto</legend>
-            <label>Email Address: <input type="email"placeholder = "Coloca tu email"required minlength="@" name="Email"></label>
-            <label>Phone Number: <input type="text"placeholder = "+549"name="Télefono"></label>
-        </fieldset>
-
-        <div></div>
-
-        <input type="submit" >
-        <input type="reset" >
-        <button><a href="../clase_02/index.html">Cancelar</a></button>
-       
+     <div class="Email">
+        <label>Email</label> 
+        <input type="email"required minlength="@" name="Email"required>
+    </div>
+            
+    <div class="Telefono">
+    <label>Télefono </label>
+    <input type="text"placeholder = "+549"name="Télefono"required>
+    </div>
+    
+        <input type ="submit" class="Enviar">
+        <input type="reset" class="Restablecer">
+        <button class="Cancelar"><a href="http://127.0.0.1:5501/index.html">Cancelar</a></button>
+    </div>
     </form>
 </body>
 </html>

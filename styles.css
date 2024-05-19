@@ -1,0 +1,368 @@
+header{background: rgb(148, 190, 31);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center; 
+}
+
+.logo-ole {
+    max-width: 120px; /* Ajusta el ancho máximo deseado */
+    height: auto;
+    margin-left: 130px;}
+
+
+.titulo-header{color: white;
+    font-size: 30px;
+    font-family: NotoSansDisplay-Regular, Arial, sans-serif;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-top: 50px;
+    height: 35px;
+    margin-left: 30px;}
+
+.lista-encabezado{
+    font: size small;
+    height: 40px;
+    border-bottom: 2px solid rgb(242, 242, 242);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    background: white;
+    margin-left: 0px;}
+
+    .contenedor-champions {
+        display: flex;
+        justify-content: center; /* Centrar horizontalmente */
+        align-items: center; /* Centrar verticalmente */
+        min-height: 10vh; /* Establecer una altura mínima */
+        min-width: 15vh;
+        margin: 0; /* Eliminar márgenes */
+        margin-bottom: -60px;}
+    
+    
+    .champions-league {
+        font-family: Heebo-bold, "Arial Black", sans-serif !important;
+        background: rgb(148, 190, 31);
+        padding: 5px 15px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        text-align: center;
+        color: black;}
+
+        body{margin: 20px;}
+
+        .contenido {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 500px; /* ajusta el ancho máximo según tus necesidades */
+            padding-left: 50px; /* ajusta el padding según tus necesidades */
+            padding-right: 50px; /* ajusta el padding según tus necesidades */
+            text-indent: 0;
+            max-width: 100%;
+            }
+
+        
+
+        .equipo-real-madrid {width: 100%;
+        height: auto;}
+                
+        
+            .contenido p {
+                text-align: left; /* Alinea los párrafos a la izquierda */
+                padding-left: 250px; /* ajusta el relleno izquierdo según tus necesidades */
+                padding-right: 250px;}
+
+h1 {color:black;
+text-align:center;
+font-family: NotoSansDisplay-Black, "Arial Black", sans-serif;
+font-size: 60px;
+line-height: 70px;
+padding: 0.5rem 0px;
+letter-spacing: -1.8px;}
+
+
+
+h2 {color:black;
+font-family: NotoSansDisplay-Black, "Arial Black", sans-serif;
+font-size: 26px;
+line-height: 31px;
+padding: 0.5rem 0px;
+letter-spacing: -1.8px;
+padding-left: 250px; /* ajusta el relleno izquierdo según tus necesidades */
+padding-right: 250px;
+text-indent: 0;}
+
+.imagen-y-enlace{margin-left: 250px;
+margin-bottom: 40px;
+margin-top: 50px;}
+
+.juan-jose-imagen {width:50px;
+    height:55px;
+border-radius: 60%;
+margin-bottom: -20px;
+margin-right: 5px;}
+
+.enlace-jose-maron {text-decoration: none;
+color: black;
+font-family:  Arial, Helvetica, sans-serif;
+font-size: 15px;}
+
+.fecha {color:grey;
+font-size: 14px;}
+
+.sin-subrayado {
+    list-style-type: none; /* Quita los marcadores de lista */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    color:rgb(53, 156, 53);
+    font-family: Heebo-Regular, Arial, sans-serif;}
+    
+.sin-subrayado { 
+    font-size: small;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;}
+    
+
+.sin-subrayado li {
+    display: inline; /* Hace que los elementos de lista se muestren uno al lado del otro */
+    margin-right: 10px; }
+
+.sin-subrayado li a {
+    text-decoration: none; 
+    color: black;
+    display: inline-block; 
+    margin-right: 10px;}
+
+
+
+.centrar-imagen {
+        display: flex;
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente */
+        height: 55vh; /* Opcional: ajusta la altura según tu necesidad */
+        text-align: center;}      
+
+p{font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0px;
+    font-family: NotoSansDisplay-Regular, Arial, sans-serif;
+    padding: 0px 0px 1rem;
+    font-size: 20px;
+    color: rgb(36, 47, 55);
+    text-align: center;}
+
+
+
+h3 {color: rgb(21, 30, 36);
+    font-family: NotoSansDisplay-Black, "Arial Black", sans-serif;
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 700;
+    padding-bottom: 1.2rem;
+    padding-left: 250px; /* ajusta el relleno izquierdo según tus necesidades */
+    padding-right: 250px;}
+
+    .oracion-subrayada-city {
+        text-decoration: underline;}    
+
+    .real-madrid-centrada {display: flex;
+        height: 630px;
+        width: auto;
+        margin-left: 250px;}
+
+
+    footer {position: relative;
+        padding: 30px; /* Ajusta el padding según sea necesario */
+        display: flex;
+        margin: 20px;
+        border-top: none;
+        background-color: rgb(36, 47, 55);
+        margin: 20px;}
+
+    .ole-final {display: flex;
+    flex-direction: column;}    
+
+    .footer-header{
+        background-color: rgb(148, 190, 31);
+        width: auto;
+        height: 100px;
+        margin-top: -30px;
+        display: flex;
+        margin-left: -30px;
+        margin-right: -30px;}
+
+        .logo-ole2 {width: 130px;
+height: 80px;
+margin-left: 50px;
+margin-top: 10px;}
+
+    .div-0 {display: inline;
+            margin-left: auto;}
+        
+            .div-0-list {
+                padding-left: 80px; }
+        
+            .div-0-list li {
+                display: inline; /* Para mostrar los elementos de la lista en línea */
+                list-style-type: none; /* Para eliminar los puntos de lista */
+                margin-right: 100px; /* Ajusta el espacio entre elementos de lista */
+                color: white;
+                font-family:Arial, Helvetica, sans-serif;
+                font-size: 14px;}
+
+.contenedor-listas {width: auto;
+    height: auto; 
+    display:flex;
+    margin-left: 420px;
+    justify-content: flex-start;
+    margin: auto;}
+
+.div-1 {display: inline-block;
+    width: 300px; /* Ancho deseado */
+    height: 480px; /* Alto deseado */
+    margin-left: 80px;
+    margin-right: 40px ;
+    border-right: 1px solid rgb(131, 130, 130); /* Línea vertical entre los contenedores */
+    margin-top: 30px;} /* Espacio entre contenedores */
+
+.title {color: white;
+font-family: Heebo-Regular, Arial, sans-serif;
+text-align: left;
+margin-bottom: 10px;}
+
+.logo-cavani {position: relative;
+width: 20px;
+margin-left: 2px;
+margin-top: -5px;
+left: -5px;
+height:auto;
+border-radius: 10px; /* Ajusta el valor según sea necesario para redondear las esquinas */
+border: 18px solid rgba(183, 179, 179, 0.1); /* Borde con color blanco semitransparente */
+background-color: rgba(183, 179, 179, 0.1); /* Fondo semitransparente */}
+
+
+.div-2 {width: 300px; /* Ancho deseado */
+height: 480px; /* Alto deseado */
+display: inline-flex; 
+border-right: 1px solid rgb(174, 174, 174); /* Línea vertical entre los contenedores */
+margin-top: 30px;
+margin-right: 20px;
+margin-left: -20px;} /* Espacio entre contenedores */
+
+.lista1-footer {list-style: none;
+text-decoration: none;
+margin-left: -10px;
+font-family: Heebo-bold, "Arial Black", sans-serif;
+line-height: 35px;
+font-size: 15px;
+-webkit-text-stroke-width: -2px}
+
+.lista1-footer .enlace-verde{color:  rgb(148, 190, 31);   
+    text-decoration: none;}
+
+.lista1-footer .enlace-blanco {color: rgb(255, 255, 255);
+    text-decoration: none;}
+
+.div-3 { width: auto; /* Ancho deseado */
+    height: 250px; /* Alto deseado */
+    margin-right: 20px; /* Espacio entre contenedores */
+    display: inline-block;
+    margin-left: -15px;
+    margin-top: 29px;}
+
+    .div-3 ul {
+        list-style: none; /* Elimina los puntos de la lista */
+        margin-left: auto;
+        margin-left: -18px;
+        font-family: Heebo-bold, "Arial Black", sans-serif;
+        line-height: 35px;
+        font-size: 15px;
+        -webkit-text-stroke-width: -2px;}
+
+.lista2-footer a {color:rgb(255, 255, 255);
+text-decoration: none;}
+
+
+
+    .segunda-mitad-footer{display: flex;
+    height: auto;
+width: auto;}
+
+    .div-4{display: inline;
+    width: 600px;
+height: 40px;
+margin-top: 15px;
+margin-right: 140px;
+margin-left: 380px;
+margin-bottom: 120px;}
+
+
+        .div-4 ul {
+            list-style: none; /* Elimina los puntos de la lista */
+            padding: 0; /* Elimina el relleno */
+            font-size:  Arial, sans-serif;
+
+            }
+        
+        .div-4 ul li {
+            display:inline; /* Hace que los elementos de la lista se muestren en línea */
+            margin-right: 20px; /* Ajusta el espacio entre los elementos de la lista */
+            margin-left: 40px;
+            font-size:  Arial, sans-serif;}
+        
+        .div-4 ul li a {
+            text-decoration: none; /* Elimina el subrayado de los enlaces */
+            color:rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        }
+        
+.div-5 {display: inline;
+    width: auto;
+    height:auto;
+    margin-top: -82px;
+    margin-left: -15px;
+    margin-right: 10px;}
+
+.div-5 p{text-align: justify;
+margin-top: 20px;
+font-size: 16px;
+color: white;
+font-family: Heebo-Regular, Arial, sans-serif;
+line-height: 1px;
+margin-bottom: -20px;}
+
+.div-6 {
+    display:inline-block;
+margin-bottom: 80px;}
+
+.div-6 ul{
+    list-style: none; /* Elimina los puntos de la lista */text-decoration: none;
+    padding: 0; /* Elimina el relleno */
+    margin: 0; /* Elimina el margen */
+    font-family: Heebo-Regular, Arial, sans-serif;
+font-size: 14px;
+margin-top: 25px;
+margin-bottom: 25px;}
+
+.div-6 ul li{display: inline-block; /* Hace que los elementos de la lista se muestren en línea */
+    margin-right: 45px;;} /* Ajusta el espacio entre los elementos de la lista */
+
+.div-6 ul li a {text-decoration: none;
+color: rgb(255, 255, 255); 
+font-size:  Arial, sans-serif;}
+
+
+@media screen (max-width: 412px)
+{ 
+    body{}
+    
+
+
+
+
+
+

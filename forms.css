@@ -1,0 +1,101 @@
+.logo-ole-form {border-radius: 10px;
+display: flex;
+margin-left: 350px;}
+
+.Formulario h1 {margin-left: 8px;
+font-size: 28px;}
+
+.Formulario {background-color: rgb(209, 209, 209) ;
+height: 700px;
+width:450px;
+margin-left: 550px;
+margin-top: 20px;
+margin-bottom: 20px;
+padding: 20px;
+border-radius: 10px;
+border: 2px;;
+border-color: black;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 14px;}
+
+.Usuario {display: inline-block;
+padding: 10px;
+margin: auto;}
+ 
+.Contraseña {display: inline-block;
+    padding: 10px;
+    margin: auto;}
+
+.Repetir-contraseña {display: inline-block;
+    padding: 10px;
+    margin: auto;}
+
+    .Domicilio {display: inline-block;
+        padding: 10px;
+        margin: auto;}
+
+    .País {display: inline flex;
+        padding: 10px;
+        margin: auto;}
+
+    .Nombre {display: inline-block;
+        padding: 10px;
+        margin: auto;
+        margin:auto}
+
+    .Genero {display: inline-flex;
+        padding: 10px;
+        margin: auto;}
+
+    .Fecha-de-nacimiento {display: inline-block;
+        padding: 10px;
+        margin: auto;}
+
+    .Email {display: inline-block;
+        padding: 10px;
+        margin: auto;}
+
+     .Telefono {display: inline-block;
+        padding: 10px;
+        margin: auto;}
+
+    .Enviar {display: block;
+    height: 35px;
+    width:250px;
+padding: 10px;
+margin-top: 20px;
+margin-left: 85px;
+border-radius: 10px;
+background-color:rgba(128, 128, 128, 0.701);}
+
+.Restablecer {display: block;
+    height: 35px;
+width:250px;
+padding: 10px;
+margin-top: 20px;
+margin-left: 85px;
+border-radius: 10px;
+background-color:rgba(128, 128, 128, 0.701);}
+
+.Cancelar{display: block;
+    height: 35px;
+width:250px;
+padding: 10px;
+margin-top: 20px;
+margin-left: 85px;
+border-radius: 10px;
+background-color:rgba(128, 128, 128, 0.701);}
+
+.Cancelar a {text-decoration: none;
+color: black;}
+
+.País-select {text-align: justify;
+border-radius: 5px;
+padding: 2px;
+margin-left: 5px;
+margin-top: -2px;}
+
+label.País{padding-right: 5px;}
+
+.GeneroInput {margin-left: 10px;
+margin-top: 2px;}
